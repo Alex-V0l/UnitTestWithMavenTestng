@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Tests" parallel="tests" thread-count="5">
+    <test name="Smoke Tests">
+        <classes>
+            <class name="DistanceNegativeTest"/>
+            <class name="DistancePositiveTest"/>
+            <class name="BusynessTest"/>
+            <class name="DimensionsTest"/>
+            <class name="FragilityTest"/>
+            <class name="TotalPricePositiveTest"/>
+            <class name="TotalPriceNegativeTest"/>
+        </classes>
+    </test>
+</suite>
